@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load django_markdown %}
+
+{% block title %}
+<title>Blog:{{ object.slug }}: Russel Adrian Lopez : Django Developer in Jacksonville, FL</title>
+{% endblock %}
+
+{% block page_header %}
+<header class="intro-header" style="background-image: url({% static 'img/blog-page-bg.jpg' %})">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ object.title }}</h1>
+                    <h2 class="subheading">{{ object.body|markdown|truncatewords:"8"|linebreaks }}</h2>
+                    <span class="meta">Posted by <a href="{% url 'profile:index' %}">{{ object.author }}</a> on {{ object.created }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+    <!-- Post Content -->
+<article>
+    {% block content %}
+    <h2 class="section-heading"><a href="{% url "blog:page" slug=object.slug %}">{{object.title}}</a></h2>
+
+    <p>{{ object.body|markdown }}</p>
+    {% endblock %}
+</article>

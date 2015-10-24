@@ -1,0 +1,5 @@
+Django==1.8.5
+Markdown==2.6.2
+argparse==1.2.1
+django-markdown==0.8.4
+django-widget-tweaks==1.4.1

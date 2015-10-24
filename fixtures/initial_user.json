@@ -1,0 +1,20 @@
+[
+{
+    "fields": {
+        "username": "rustydude",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-10-22T22:03:14.644Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$3b8XQoVPQ9oG$zkD7sboxeOLjRpdDEzf5QHixZ0FVMejfXB5+vzM8hWI=",
+        "email": "rustydude09@gmail.com",
+        "date_joined": "2015-10-20T05:41:16.359Z"
+    },
+    "model": "auth.user",
+    "pk": 1
+}
+]

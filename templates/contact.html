@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load django_markdown %}
+{% load widget_tweaks %}
+{% load widget_tweaks %}
+
+{% block title %}
+<title>Contact: Russel Adrian Lopez : Django Developer in Jacksonville, FL</title>
+{% endblock %}
+
+{% block page_header %}
+<header class="intro-header" style="background-image: url({% static 'img/contact-bg.jpg' %})">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>Contact Me</h1>
+                    <hr class="small">
+                    <span class="subheading">Have any more questions?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+{% block content %}
+{% if messages %}
+    {% for message in messages %}
+        <p{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+    {% endfor %}
+    {% else %}
+        <p>Want to get in touch with me? Fill out the form below to send me a message.</p>
+{% endif %}
+
+    <form method="post" name="sentMessage" id="contactForm"> {% csrf_token %}
+        {{ form.non_field_errors }}
+         <div class="row control-group">
+            <div class="fieldWrapper form-group col-xs-12 floating-label-form-group controls">
+                {{ form.name.errors }}
+                <label for="{{ form.name.id_for_label }}">Name</label>
+                {{ form.name|add_class:"form-control"|attr:"placeholder:Name"|attr:"required data-validation-required-message:Please enter your name." }}
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="row control-group">
+            <div class="fieldWrapper form-group col-xs-12 floating-label-form-group controls">
+                {{ form.email.errors }}
+                <label for="{{ form.email.id_for_label }}">Email Address</label>
+                {{ form.email|add_class:"form-control"|attr:"placeholder:Email Address"|attr:"required data-validation-required-message:Please enter your name."  }}
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="row control-group">
+            <div class="fieldWrapper form-group col-xs-12 floating-label-form-group controls">
+                {{ form.phone.errors }}
+                <label for="{{ form.phone.id_for_label }}">Phone Number</label>
+                {{ form.phone|add_class:"form-control"|attr:"placeholder:Phone Number"|attr:"required data-validation-required-message:Please enter your phone number."  }}
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="row control-group">
+            <div class="fieldWrapper form-group col-xs-12 floating-label-form-group controls">
+                {{ form.message.errors }}
+                <label for="{{ form.message.id_for_label }}">Message</label>
+                {{ form.message|attr:"row:5"|add_class:"form-control"|attr:"placeholder:Message"|attr:"required data-validation-required-message:Please enter your message."  }}
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <br>
+        <div id="success"></div>
+        <div class="row">
+            <div align="center" class="form-group col-xs-12">
+                <button type="submit" class="btn btn-default">Send</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,58 @@
+[
+{
+    "fields": {
+        "body": "Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center \u2014 an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.\r\n\r\nScience cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.\r\n\r\nWhat was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.\r\n\r\nA Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.\r\n\r\nFor those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.",
+        "author": 1,
+        "created": "2015-10-20T05:43:30.207Z",
+        "title": "The Ancient History",
+        "modified": "2015-10-20T05:43:30.207Z",
+        "publish": true,
+        "slug": "ancient-history",
+        "tags": []
+    },
+    "model": "blog.entry",
+    "pk": 1
+},
+{
+    "fields": {
+        "body": "There can be no thought of finishing for \u2018aiming for the stars.\u2019 Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.\r\n\r\n\r\nThere can be no thought of finishing for \u2018aiming for the stars.\u2019 Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.\r\n\r\nThe dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.\r\n\r\nSpaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.",
+        "author": 1,
+        "created": "2015-10-20T05:47:06.760Z",
+        "title": "The Final Frontier",
+        "modified": "2015-10-20T05:47:06.760Z",
+        "publish": true,
+        "slug": "the-final-frontier",
+        "tags": []
+    },
+    "model": "blog.entry",
+    "pk": 2
+},
+{
+    "fields": {
+        "body": "As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.\r\n\r\n\r\nTo go places and do things that have never been done before \u2013 that\u2019s what living is all about.\r\n\r\nSpace, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.\r\n\r\nAs I stand out here in the wonders of the unknown at Hadley, I sort of realize there\u2019s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.",
+        "author": 1,
+        "created": "2015-10-20T05:47:35.947Z",
+        "title": "Reaching for the Stars",
+        "modified": "2015-10-20T05:47:35.947Z",
+        "publish": true,
+        "slug": "reaching-for-the-stars",
+        "tags": []
+    },
+    "model": "blog.entry",
+    "pk": 3
+},
+{
+    "fields": {
+        "body": "Beautiful is better than ugly.\r\nExplicit is better than implicit.\r\nSimple is better than complex.\r\nComplex is better than complicated.\r\nFlat is better than nested.\r\nSparse is better than dense.\r\nReadability counts.\r\nSpecial cases aren't special enough to break the rules.\r\nAlthough practicality beats purity.\r\nErrors should never pass silently.\r\nUnless explicitly silenced.\r\nIn the face of ambiguity, refuse the temptation to guess.\r\nThere should be one-- and preferably only one --obvious way to do it.\r\nAlthough that way may not be obvious at first unless you're Dutch.\r\nNow is better than never.\r\nAlthough never is often better than *right* now.\r\nIf the implementation is hard to explain, it's a bad idea.\r\nIf the implementation is easy to explain, it may be a good idea.\r\nNamespaces are one honking great idea -- let's do more of those!",
+        "author": 1,
+        "created": "2015-10-20T05:47:58.087Z",
+        "title": "The Zen of Python",
+        "modified": "2015-10-20T05:47:58.087Z",
+        "publish": true,
+        "slug": "the-zen-of-python",
+        "tags": []
+    },
+    "model": "blog.entry",
+    "pk": 4
+}
+]

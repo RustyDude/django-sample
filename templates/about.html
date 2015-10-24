@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+<title>About Me: Russel Adrian Lopez : Django Developer in Jacksonville, FL</title>
+{% endblock %}
+
+{% block page_header %}   
+<header class="intro-header" style="background-image: url({% static 'img/about-bg.jpg' %})">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>About Me</h1>
+                    <hr class="small">
+                    <span class="subheading">The things that I could do.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+
+{% block content %}
+    <h2>Skills</h2>
+        <ul>
+            <li>Mainly focuses on the field of Web Development: Specializes in building websites with Django Web Framework</li>
+            <li>Basic Fundamentals of Web Design: HTML, CSS and Javascript.</li>
+            <li>Familiar with Agile/Scrum Methodology and also very familiar with using git.
+            <li>Minor Experience with DevOps: nginx, apache</li>
+            <li>Minor skills with Quality Assurance: Manual Testing, Automated Testing, Test Driven Technology</li>
+            <li>Minor skills with Multimedia Tools: Adobe Photoshop, Adobe Audition, Adobe Premium, Seny Vegas Pro</li>
+            </ul>
+    <h2>Work Experience</h2>
+        <ul>
+            <li>Intern at Philippine Global Outsourcing. Trained as a Andriod mobile developer developed a prototype book finder application.</li>
+            <li>Began working with Django upon my graduation and worked as a remote developer under Ingenuity Global Consulting, Inc.</li>
+            <li>Work with a swedish company called The Inspiration Company. Working with a reward shop system application.</li>
+        </ul>
+    <h2>Personal and Education info</h2>
+        <ul>
+            <li>Born and raised in Tagum City, Davao Del Norte, Philippines.</li>
+            <li>Graduated from Ateneo De Davao University with a degree in Computer Science</li>
+            <li>Recently migrated into the US and moved in Jacksonville, Florida.</li>
+            <li>Plays some basketball and video games to satisfy competitiveness.</li>
+        </ul>
+
+    <h2>Resume</h2>
+    <table>
+        <thead>
+            <tr>
+                <td><h3 style="text-align:center"> Graphic Resume</h3></td>
+                <td><h3 style="text-align:center"> SoftCopy Resume</h3></td>
+            </tr>
+            <tr>
+                <td style="width:50%;height: 100%">
+                     <a href="https://drive.google.com/file/d/0B1PHFuHY5NdfZ1dhMWJrd2I3TkU/view?usp=sharing">
+                        <img src="{% static 'img/Resume1.jpg' %}" alt="Resume #1" style="max-width:100%; max-height: 100%;">
+                    </a>
+                </td>
+
+                <td style="padding-left:5px;width:50%;height: 100%">
+                    <a href="https://docs.google.com/document/d/1W5I3bs_iEzuRxqhGXCEwRFYdkFEP22_mqe5EmLknhZ4/edit?usp=sharing">
+                        <img src="{% static 'img/Resume2.jpg' %}" alt="Resume #2" style="max-width: 100%; max-height: 100%;">
+                    </a>
+                </td>
+            </tr>
+        </thead>
+    </table>
+{% endblock %}
+
