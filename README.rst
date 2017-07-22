@@ -38,12 +38,3 @@ Credits
 =========
 
 * This Project is powered by `Django <https://www.djangoproject.com/>`_
-
-
-Contact/Inquires
-==========
-
-If you've any questions/inquiries regarding the demo or me pesonally, 
-you can send me a message through the demo project's contact function
-or via skype/gmail icons in the footer of each pages. Else you may contact 
-me at this email address: `rustydude09@gmail.com <mailto:RustyDude09@gmail.com>`_
