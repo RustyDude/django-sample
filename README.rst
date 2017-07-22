@@ -1,8 +1,9 @@
 ====================
-The Russel Project
+Project: Django Sample
 ====================
 
 A Demo Django Project for application purposes.
+Developed a personal blog-like site using the Django framework in Python. Serving a multi-page web application with Home, Profile, and Contacts pages. Using Bootstrap, LESS, Django-markdown, etc.
 
 Local Deployment
 ==================
